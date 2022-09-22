@@ -1,0 +1,63 @@
+golang-github-smartystreets-goconvey (1.6.4+dfsg-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Martín Ferrari ]
+  * Clean-up packaging.
+  * Update DH compat level to 11.
+  * Automated packaging fixes by cme.
+  * Skip long-running (and racey) tests.
+  * debian/examples: Install examples.
+
+  [ Dmitry Smirnov ]
+  * New upstream release
+  * Updated watch file
+  * DH to version 12
+  * Standards-Version: 4.4.1
+  * renamed TODO.Debian --> TODO
+  * Build-Depends:
+    + golang-golang-x-tools-dev (>= 1:0.0~git20191118~)
+    = golang-github-smartystreets-assertions-dev (>= 1.10.1~)
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 29 Dec 2019 12:03:18 +1100
+
+golang-github-smartystreets-goconvey (1.6.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Set XS-Go-Import-Path
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Fri, 09 Feb 2018 09:50:31 +0100
+
+golang-github-smartystreets-goconvey (1.6.1-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Tim Potter ]
+  * Add me to uploaders
+
+  [ Dr. Tobias Quathamer ]
+  * Use debhelper v10
+  * Update team name
+  * Build-Depends on golang-any instead of golang-go
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Sun, 04 Dec 2016 13:41:15 +0100
+
+golang-github-smartystreets-goconvey (1.6.1-1) unstable; urgency=medium
+
+  * New upstream release [February 2016].
+  * Standards-Version: 3.9.8.
+  * (Build-)Depends:
+    - golang-github-jacobsa-ogletest-dev
+    + golang-github-jtolds-gls-dev
+    + golang-github-smartystreets-assertions-dev
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 07 May 2016 20:41:58 +1000
+
+golang-github-smartystreets-goconvey (1.5.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #805255).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 17 Nov 2015 18:17:04 +1100
